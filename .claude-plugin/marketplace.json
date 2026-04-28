@@ -1,5 +1,6 @@
 {
-  "name": "c-donnachie",
+  "name": "madagascar",
+  "description": "Universo Madagascar para Claude Code. Plugins que arman tu proyecto, lo documentan y lo mantienen escalable con Clean Code y SOLID.",
   "owner": {
     "name": "Cristian Donnachie",
     "email": "cristianu@dropout.cl"
@@ -11,12 +12,12 @@
         "source": "github",
         "repo": "c-donnachie/skipper"
       },
-      "description": "🐧 El capitán de tu documentación. Mantiene docs/architecture, business, decisions (ADR), prds y plans automáticamente.",
-      "version": "0.3.0",
+      "description": "🐧 El capitán. Framework completo: detecta stack, aplica perfil opinado, mantiene docs vivos (ADRs/PRDs/planes), refactoriza con sub-agentes especialistas (architect, solid-coach, react-vite, react-native, nextjs, node-backend, supabase).",
+      "version": "0.4.0",
       "author": {
         "name": "Cristian Donnachie"
       },
-      "keywords": ["documentation", "adr", "prd", "spanish", "es"]
+      "keywords": ["framework", "documentation", "adr", "prd", "architecture", "solid", "clean-code", "spanish"]
     }
   ]
 }
