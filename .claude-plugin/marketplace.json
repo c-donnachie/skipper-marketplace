@@ -12,7 +12,7 @@
         "repo": "c-donnachie/skipper"
       },
       "description": "🐧 El capitán de tu documentación. Mantiene docs/architecture, business, decisions (ADR), prds y plans automáticamente.",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "Cristian Donnachie"
       },
