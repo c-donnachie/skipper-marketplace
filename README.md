@@ -1,25 +1,25 @@
 # 🐧 Madagascar
 
-> *Universo de plugins para Claude Code.*
+> *Plugin universe for Claude Code.*
 
-Marketplace de plugins que arman tu proyecto, lo documentan y lo mantienen escalable.
+Marketplace of plugins that scaffold, document and keep your project scalable.
 
-## Plugins disponibles
+## Available plugins
 
-### 🐧 [skipper](https://github.com/c-donnachie/skipper) — El capitán
+### 🐧 [skipper](https://github.com/c-donnachie/skipper) — The captain
 
-Framework completo de Claude Code:
+Complete Claude Code framework:
 
-- **Detecta tu stack** (8 stacks soportados: React Vite, Next.js, Expo, Node API, Python FastAPI, todos con/sin Supabase)
-- **Aplica perfil opinado** (CLAUDE.md + docs/architecture/stack.md con estructura, naming, libs, reglas SOLID)
-- **Mantiene docs vivos** (ADRs, PRDs, planes, architecture, business)
-- **Sub-agentes especialistas** que pueden refactorizar:
-  - 🐧 Skipper (capitán/router)
-  - 🐧 Kowalski (analista de docs)
-  - 🛠 architect, solid-coach (transversales)
+- **Detects your stack** (8 supported stacks: React Vite, Next.js, Expo, Node API, Python FastAPI, all with/without Supabase)
+- **Applies an opinionated profile** (CLAUDE.md + docs/architecture/stack.md with structure, naming, libs, SOLID rules)
+- **Keeps living docs** (ADRs, PRDs, plans, architecture, business)
+- **Specialist subagents** that can refactor:
+  - 🐧 Skipper (captain/router)
+  - 🐧 Kowalski (docs analyst)
+  - 🛠 architect, solid-coach (cross-cutting)
   - 🛠 react-vite, react-native, nextjs, node-backend, supabase (stack-agents)
 
-## Instalación
+## Installation
 
 ```
 /plugin marketplace add c-donnachie/madagascar
@@ -27,29 +27,29 @@ Framework completo de Claude Code:
 /reload-plugins
 ```
 
-Después en cualquier proyecto:
+Then in any project:
 
 ```
-/skipper:init-structure          # detecta stack y arma docs/
-/skipper:scan                    # ver qué stack tienes
-/skipper:stack-apply <id>        # aplica perfil opinado
-/skipper:ask "..."               # capitán enruta a especialista
-/skipper:react-vite "..."        # invoca especialista directo
-/skipper:update                  # kowalski actualiza docs según diff
+/skipper:init-structure          # detect stack and scaffold docs/
+/skipper:scan                    # see what stack you have
+/skipper:stack-apply <id>        # apply opinionated profile
+/skipper:ask "..."               # captain routes to specialist
+/skipper:react-vite "..."        # invoke specialist directly
+/skipper:update                  # kowalski updates docs from diff
 ```
 
-## ¿Por qué Madagascar?
+## Why "Madagascar"?
 
-Skipper es el capitán. Kowalski analiza ("Kowalski, análisis"). En el futuro: Rico para refactor agresivo, Private para tutoriales/lookups. Madagascar es el lugar donde viven todos.
+Skipper is the captain. Kowalski analyzes ("Kowalski, analysis"). In the future: Rico for aggressive refactor, Private for tutorials/lookups. Madagascar is the place where they all live.
 
-Cada plugin del marketplace puede ser un add-on independiente. El núcleo es **skipper** (instalas eso y tienes el framework completo). Los demás serán opcionales.
+Each plugin in the marketplace can be a standalone add-on. The core is **skipper** (install that and you have the full framework). The rest will be optional.
 
 ## Roadmap
 
-- **v0.5** — Hook `PostToolUse` paths-based + skill `lib-lookup` con WebSearch
-- **v0.6** — Layers componibles (`stack:add`, `stack:doctor`)
-- **v1.0** — Submit al marketplace oficial de Anthropic
+- **v1.x** — More stacks (Astro, SvelteKit, Tauri, Remix) based on real demand
+- **future** — Optional add-ons (`private`, `rico`)
+- **goal** — Submission to Anthropic's official marketplace
 
-## Licencia
+## License
 
 MIT

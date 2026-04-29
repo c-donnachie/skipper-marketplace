@@ -1,6 +1,6 @@
 {
   "name": "madagascar",
-  "description": "Universo Madagascar para Claude Code. Plugins que arman tu proyecto, lo documentan y lo mantienen escalable con Clean Code y SOLID.",
+  "description": "The Madagascar universe for Claude Code. Plugins that scaffold, document and maintain your project following Clean Code and SOLID.",
   "owner": {
     "name": "Cristian Donnachie",
     "email": "cristianu@dropout.cl"
@@ -12,12 +12,12 @@
         "source": "github",
         "repo": "c-donnachie/skipper"
       },
-      "description": "🐧 El capitán. Framework completo: detecta stack, aplica perfil opinado, mantiene docs vivos (ADRs/PRDs/planes), refactoriza con sub-agentes especialistas (architect, solid-coach, react-vite, react-native, nextjs, node-backend, supabase).",
-      "version": "1.0.0",
+      "description": "🐧 The captain. Complete framework: detects stack, applies opinionated profile, keeps living docs (ADRs/PRDs/plans), refactors with specialist subagents (architect, solid-coach, react-vite, react-native, nextjs, node-backend, supabase).",
+      "version": "1.0.1",
       "author": {
         "name": "Cristian Donnachie"
       },
-      "keywords": ["framework", "documentation", "adr", "prd", "architecture", "solid", "clean-code", "spanish"]
+      "keywords": ["framework", "documentation", "adr", "prd", "architecture", "solid", "clean-code"]
     }
   ]
 }
