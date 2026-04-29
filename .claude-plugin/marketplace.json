@@ -13,7 +13,7 @@
         "repo": "c-donnachie/skipper"
       },
       "description": "🐧 El capitán. Framework completo: detecta stack, aplica perfil opinado, mantiene docs vivos (ADRs/PRDs/planes), refactoriza con sub-agentes especialistas (architect, solid-coach, react-vite, react-native, nextjs, node-backend, supabase).",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "author": {
         "name": "Cristian Donnachie"
       },
